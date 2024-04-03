@@ -1,6 +1,11 @@
 import React from 'react'
+
+// Library
 import { Container, Nav, Navbar, NavDropdown, Button } from 'react-bootstrap'
+
+// css
 import '../assets/NavbarBefore.css'
+import '../assets/Global.css'
 
 export default function NavbarBefore() {
     return (

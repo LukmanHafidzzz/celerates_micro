@@ -7,6 +7,7 @@ import '@splidejs/splide/dist/css/themes/splide-default.min.css'
 
 // css
 import '../assets/LandingSection.css'
+import '../assets/Global.css'
 
 export default function LandingSection1({ handlePrevClick, handleNextClick, splideRef }) {
     var splideOptions = {

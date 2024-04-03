@@ -3,6 +3,20 @@
     border-radius: 40px !important;
 }
 
+.show-btn {
+    width: 140px;
+    border-radius: 5px !important;
+    background-color: #191919 !important;
+    transition: 0.2s;
+}
+
+.show-btn:hover {
+    width: 140px;
+    border-radius: 5px !important;
+    background-color: white !important;
+    transition: 0.2s;
+}
+
 .pagination-btn {
     border: 1px solid white !important;
     border-radius: 45px;
@@ -28,4 +42,15 @@
 
 .text-main {
     margin-bottom: 150px;
+}
+
+.m-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bg-sc-container {
+    background-color: #2B2B2B !important;
 }

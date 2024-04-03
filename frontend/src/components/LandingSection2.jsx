@@ -9,6 +9,7 @@ import Slider from 'react-slick'
 
 // css
 import '../assets/LandingSection.css'
+import '../assets/Global.css'
 
 export default function LandingSection2() {
     const settings = {

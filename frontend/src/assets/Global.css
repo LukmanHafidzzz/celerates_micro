@@ -2,3 +2,11 @@ body {
     background-color: #191919 !important;
     color: white !important;
 }
+
+.text-grey {
+    color: #999999 !important;
+}
+
+.text-justify {
+    text-align: justify !important;
+}

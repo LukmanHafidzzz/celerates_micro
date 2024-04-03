@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react'
 // library
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Button, Col, Image, Row, Container } from 'react-bootstrap'
+import { Button, Col, Image, Row, Container, Tab, Nav } from 'react-bootstrap'
 import { FaChevronRight } from "react-icons/fa6";
 import { FaChevronLeft } from "react-icons/fa6";
 
@@ -12,9 +12,11 @@ import NavbarBefore from '../components/NavbarBefore'
 import LandingSection1 from '../components/LandingSection1';
 import LandingSection2 from '../components/LandingSection2';
 import LandingSection2Lagi from '../components/LandingSection2Lagi';
+import LandingSection3 from '../components/LandingSection3';
 
 // css
 import '../assets/Landingpage.css'
+import '../assets/Global.css'
 
 export default function Landingpage() {
     useEffect(() => {
@@ -66,18 +68,29 @@ export default function Landingpage() {
                     </Container>
                 </section>
 
-                <Container className='mb-5'>
-                    <p className='fs-1 mt-5' data-aos="fade-up">Research</p>
-                    <section>
-                        <LandingSection2 />
-                        <h4 className='fw-medium mt-3 text-center'>
-                            Museum Indonesia
-                        </h4>
-                        <Container>
-                            Museum Nasional Indonesia, atau yang sering disebut dengan Museum Gajah, adalah sebuah museum arkeologi, sejarah, etnografi, dan geografi yang terletak di Jakarta Pusat dan persisnya di Jalan Merdeka Barat 12. Museum ini merupakan museum pertama dan terbesar di Asia Tenggara.
-                        </Container>
+                <Container className='m-container'>
+                    <p className='fs-1' data-aos="fade-up">Research</p>
+                    <section data-aos="fade-up" data-aos-duration='1000'>
+                        <LandingSection2Lagi />
                     </section>
                 </Container>
+
+                <section className='bg-sc-container'>
+                    <Container className='m-container text-center' data-aos="fade-up" data-aos-duration='1000'>
+                        <Row className='d-flex justify-content-center align-items-center'>
+                            <Col className='text-start'>
+                                <p className='fs-1'>Collection</p>
+                            </Col>
+                            <Col className='text-end'>
+                                Koleksi adalah kumpulan objek atau data dengan tema atau tujuan tertentu, seperti buku-buku di perpustakaan, karya seni, data statistik, barang pribadi, desain pakaian, musik, atau dokumen sejarah.
+                            </Col>
+                        </Row>
+                        <section className="mt-5">
+                            <LandingSection3/>
+                        </section>
+                    <Button className='fs-6 fw-medium show-btn mt-5' variant="outline-light">Show More</Button>{' '}
+                    </Container>
+                </section>
             </section>
         </>
     );
