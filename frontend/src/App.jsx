@@ -4,6 +4,8 @@ import { Route, Routes } from 'react-router-dom'
 // Route
 import Landingpage from './pages/Landingpage'
 import Homepage from './pages/Homepage'
+import Login from './pages/Login'
+import Register from './pages/Register'
 
 // Library
 import 'aos/dist/aos.css'; // Import CSS AOS
@@ -20,6 +22,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Landingpage />}/>
         <Route path='/home' element={<Homepage />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/register' element={<Register />} />
       </Routes>
     </>
   )

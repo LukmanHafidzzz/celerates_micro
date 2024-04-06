@@ -9,7 +9,7 @@ import '../assets/Global.css'
 export default function Register() {
     return (
         <>
-
+            Ini halaman register
         </>
     )
 }

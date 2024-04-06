@@ -2,14 +2,15 @@ import React from 'react'
 
 // Library
 
-// css
-import '../assets/Login.css'
-import '../assets/Global.css'
 
-export default function Login() {
+// css
+import '../assets/Global.css'
+import '../assets/Footer.css'
+
+export default function Footer() {
     return (
         <>
-            Ini halaman Login
+        
         </>
     )
 }

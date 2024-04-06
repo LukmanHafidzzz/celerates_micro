@@ -13,6 +13,7 @@ import LandingSection1 from '../components/LandingSection1';
 import LandingSection2 from '../components/LandingSection2';
 import LandingSection2Lagi from '../components/LandingSection2Lagi';
 import LandingSection3 from '../components/LandingSection3';
+import LandingSection4 from '../components/LandingSection4';
 
 // css
 import '../assets/Landingpage.css'
@@ -89,6 +90,23 @@ export default function Landingpage() {
                             <LandingSection3/>
                         </section>
                     <Button className='fs-6 fw-medium show-btn mt-5' variant="outline-light">Show More</Button>{' '}
+                    </Container>
+                </section>
+
+                <Container className='mb-5'>
+                    <LandingSection4 />
+                </Container>
+
+                <section className='bg-tr-container p-5'>
+                    <Container>
+                        <Row>
+                            <Col className=''>
+                                <Image src='/images/Frame.png' className='w-100 rounded-1'/>
+                            </Col>
+                            <Col className=''>
+                                <Image src='/images/Frame-1.png' className='w-100 rounded-1'/>
+                            </Col>
+                        </Row>
                     </Container>
                 </section>
             </section>
