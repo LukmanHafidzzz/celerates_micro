@@ -111,7 +111,7 @@ export default function Landingpage() {
                     </Container>
                 </section>
 
-                <footer className='bg-sc-container'>
+                <footer className='bg-pr-green'>
                     <Footer />
                 </footer>
             </section>
