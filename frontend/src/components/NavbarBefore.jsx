@@ -1,7 +1,7 @@
 import React from 'react'
 
 // Library
-import { Container, Nav, Navbar, NavDropdown, Button } from 'react-bootstrap'
+import { Container, Nav, Navbar, NavDropdown, Button, Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 
 // css
@@ -11,9 +11,11 @@ import '../assets/Global.css'
 export default function NavbarBefore() {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" className='p-4' bg="dark" data-bs-theme="dark" fixed="top">
+            <Navbar collapseOnSelect expand="lg" className='p-3' bg="dark" data-bs-theme="dark" fixed="top">
                 <Container>
-                    <Navbar.Brand href="#home">Infinity Insight</Navbar.Brand>
+                    <Navbar.Brand href="#home">
+                        <Image src='/images/logo-1.png' className='w-50' />
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto"></Nav>

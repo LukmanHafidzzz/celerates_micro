@@ -1,7 +1,7 @@
 import React from 'react'
 
 // Library
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Image } from 'react-bootstrap'
 import { MdEmail } from "react-icons/md";
 import { FaTwitter } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
@@ -15,11 +15,11 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
     return (
         <>
-            <Container className='pt-5 pb-5'>
+            <Container className='pt-4 pb-5'>
                 <Row className=''>
                     <Col xs={7} className=''>
-                        Logo
-                        <Row className='d-flex flex-column mt-3 g-3 gap-3'>
+                        <Image src='/images/logo-1.png' width={50} />
+                        <Row className='d-flex flex-column mt-2 g-3 gap-3'>
                             <Col className='pe-6'>
                                 Visi kami adalah memberikan kemudahan dan membantu meningkatkan bisnis penjualan Anda.
                             </Col>
