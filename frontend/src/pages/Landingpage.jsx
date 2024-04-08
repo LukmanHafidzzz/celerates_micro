@@ -18,6 +18,7 @@ import LandingSection4 from '../components/LandingSection4';
 // css
 import '../assets/Landingpage.css'
 import '../assets/Global.css'
+import Footer from '../components/Footer';
 
 export default function Landingpage() {
     useEffect(() => {
@@ -109,6 +110,10 @@ export default function Landingpage() {
                         </Row>
                     </Container>
                 </section>
+
+                <footer className='bg-pr-green'>
+                    <Footer />
+                </footer>
             </section>
         </>
     );

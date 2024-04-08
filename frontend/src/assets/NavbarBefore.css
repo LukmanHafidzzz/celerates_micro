@@ -4,9 +4,11 @@
     width: 90px;
     text-align: center;
     border-radius: 5px;
+    transition: 0.2s;
 }
 
 .log-btn:hover {
     background-color: #DDDDDD !important;
     color: var(--bs-dark) !important;
+    transition: 0.2s;
 }
