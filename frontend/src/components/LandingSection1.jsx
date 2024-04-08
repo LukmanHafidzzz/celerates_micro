@@ -16,9 +16,9 @@ export default function LandingSection1({ handlePrevClick, handleNextClick, spli
         autoplay: true,
         pauseOnHover: false,
         interval: 3000,
+        speed: 1000,
         pagination: false,
         arrowPath: '',
-        speed: 1000,
     };
 
     return (

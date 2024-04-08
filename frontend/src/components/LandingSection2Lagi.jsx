@@ -28,6 +28,9 @@ export default function LandingSection2() {
         focus: 'center',
         gap: '3rem',
         pagination: false,
+        autoplay: true,
+        pauseOnHover: false,
+        interval: 3000,
         speed: 1000,
     };
 
