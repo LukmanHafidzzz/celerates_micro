@@ -5,26 +5,20 @@ import { Button, Col, Image, Row, Container } from 'react-bootstrap'
 import { TbHistory } from "react-icons/tb";
 import { TbCurrentLocation } from "react-icons/tb";
 import { TbBook } from "react-icons/tb";
-
-
+import 'aos/dist/aos.css';
 
 // css
+import '../assets/Global.css'
 import '../assets/LandingSection.css'
 
 export default function LandingSection4() {
     return (
         <>
-            <p className="fs-1 text-center">Research</p>
-            <p className="text-grey text-justify">
+            <p className="fs-1 text-center" data-aos="fade-up" data-aos-duration='1000'>Research</p>
+            <p className="text-grey text-justify" data-aos="fade-up" data-aos-duration='1000'>
                 Penelitian adalah proses penyelidikan secara sistematis terhadap suatu subjek atau masalah untuk menemukan fakta, teori, atau prinsip baru, atau untuk menganalisis dan menginterpretasikan informasi yang sudah ada dengan cara yang baru.
             </p>
-            {/* <Row>
-                <Col></Col>
-                <Col xs={8}>
-                </Col>
-                <Col></Col>
-            </Row> */}
-            <Row className='mt-4 d-flex justify-content-center align-items-center'>
+            <Row className='mt-4 d-flex justify-content-center align-items-center' data-aos="fade-up" data-aos-duration='1000'>
                 <Col className=''>
                     <Image src='/images/Rectangle 23792.png' className='img-research' />
                 </Col>

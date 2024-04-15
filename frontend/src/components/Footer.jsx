@@ -66,7 +66,7 @@ export default function Footer() {
                 <div className='mt-5 mb-5 border border-1'></div>
                 <Row>
                     <Col>
-                        ©2022 Otomatis Cepat · Seluruh hak cipta
+                        ©2024 Otomatis Cepat · Seluruh hak cipta
                     </Col>
                     <Col className='d-flex justify-content-end text-end'>
                         <Col>Kebijakan Pribadi</Col>

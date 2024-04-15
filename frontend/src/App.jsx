@@ -8,7 +8,7 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 
 // Library
-import 'aos/dist/aos.css'; // Import CSS AOS
+import 'aos/dist/aos.css';
 import AOS from 'aos';
 
 

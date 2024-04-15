@@ -19,6 +19,7 @@ import LandingSection4 from '../components/LandingSection4';
 import '../assets/Landingpage.css'
 import '../assets/Global.css'
 import Footer from '../components/Footer';
+import LandingSection5 from '../components/LandingSection5';
 
 export default function Landingpage() {
     useEffect(() => {
@@ -99,7 +100,7 @@ export default function Landingpage() {
                 </Container>
 
                 <section className='bg-tr-container p-5'>
-                    <Container>
+                    <Container data-aos="fade-up" data-aos-duration='1000'>
                         <Row>
                             <Col className=''>
                                 <Image src='/images/Frame.png' className='w-100 rounded-1'/>
@@ -109,6 +110,25 @@ export default function Landingpage() {
                             </Col>
                         </Row>
                     </Container>
+                </section>
+
+                <section>
+                    <Container className='text-center p-4'>
+                        <Row>
+                            <Col></Col>
+                            <Col xs={8}>
+                                <p className='fs-1' data-aos="fade-up" data-aos-duration='1000'>Review</p>
+                                <p className="text-grey" data-aos="fade-up" data-aos-duration='1000'>
+                                    Penelitian adalah proses penyelidikan secara sistematis terhadap suatu subjek atau masalah untuk menemukan fakta, teori, atau prinsip baru, atau untuk menganalisis dan menginterpretasikan informasi yang sudah ada dengan cara yang baru. 
+                                </p>
+                            </Col>
+                            <Col></Col>
+                        </Row>
+                    </Container>
+                </section>
+                
+                <section className='bg-tr-container p-5'>
+                    <LandingSection5 />
                 </section>
 
                 <footer className='bg-pr-green'>
