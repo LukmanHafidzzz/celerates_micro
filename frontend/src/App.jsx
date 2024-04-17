@@ -7,6 +7,7 @@ import Homepage from './pages/Homepage'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import Conts from './pages/Conts'
+import Koleksi from './pages/Koleksi'
 
 // Library
 import 'aos/dist/aos.css';
@@ -25,6 +26,7 @@ function App() {
         <Route path='/home' element={<Homepage />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/collections' element={<Koleksi />} />
         <Route path='/collections/1' element={<Conts />} />
       </Routes>
     </>

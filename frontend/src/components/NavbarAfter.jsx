@@ -23,7 +23,7 @@ export default function NavbarAfter() {
                         <Nav>
                             <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Beranda</Link>
                             {/* <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Learn</Link> */}
-                            <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Koleksi</Link>
+                            <Link to={'/collections'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Koleksi</Link>
                             <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Ulasan</Link>
                             <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Agenda</Link>
                             <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Berita</Link>

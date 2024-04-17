@@ -22,8 +22,8 @@ export default function NavbarBefore() {
                         <Nav>
                             <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Beranda</Link>
                             {/* <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Learn</Link> */}
-                            <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Koleksi</Link>
-                            <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Ulasan</Link>
+                            <Link to={'/login'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Koleksi</Link>
+                            <Link to={'/login'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Ulasan</Link>
                             <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Agenda</Link>
                             <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Berita</Link>
                             <Nav.Link href="#deets" className='me-3'>|</Nav.Link>
