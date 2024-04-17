@@ -5,7 +5,7 @@ import { Container, Nav, Navbar, NavDropdown, Button, Image } from 'react-bootst
 import { Link } from 'react-router-dom';
 
 // css
-import '../assets/NavbarBefore.css'
+import '../assets/Navbar.css'
 import '../assets/Global.css'
 
 export default function NavbarBefore() {
@@ -28,7 +28,7 @@ export default function NavbarBefore() {
                             <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>News</Link>
                             <Nav.Link href="#deets" className='me-3'>|</Nav.Link>
                             <Link to={'/register'} className='text-link text-decoration-none me-3 d-flex align-items-center justify-content-center'>Sign Up</Link>
-                            <Link to={'/login'} className='text-decoration-none log-btn d-flex align-items-center justify-content-center'>Login</Link>
+                            <Link to={'/home'} className='text-decoration-none log-btn d-flex align-items-center justify-content-center'>Login</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

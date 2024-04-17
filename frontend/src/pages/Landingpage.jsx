@@ -10,7 +10,6 @@ import { FaChevronLeft } from "react-icons/fa6";
 // component
 import NavbarBefore from '../components/NavbarBefore'
 import LandingSection1 from '../components/LandingSection1';
-import LandingSection2 from '../components/LandingSection2';
 import LandingSection2Lagi from '../components/LandingSection2Lagi';
 import LandingSection3 from '../components/LandingSection3';
 import LandingSection4 from '../components/LandingSection4';

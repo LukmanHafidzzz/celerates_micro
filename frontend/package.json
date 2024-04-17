@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^1.0.98",
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.3.3",
     "react": "^18.2.0",
