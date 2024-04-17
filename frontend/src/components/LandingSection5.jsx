@@ -39,16 +39,13 @@ export default function LandingSection5() {
                     <Col className='d-flex align-items-center'>
                         <Splide aria-label='My Favorite Images' options={splideOptions}>
                             <SplideSlide>
-                                <CardReview />
+                                <CardReview nama={'Viezh Robert'} tanggal={'5 maret 2024 at 12.08 pm'} review={'“Penggunaan warna yang diberikan pada lukisan ini sangat ringan tetapi jelas.”'}/>
                             </SplideSlide>
                             <SplideSlide>
-                                <CardReview />
+                                <CardReview nama={'Herman William'} tanggal={'10 maret 2024 at 11.30 pm'} review={'“Lukisan yang dibuat seniman ini sangat mempunyai makna yang sangat mendalam. Terlihat mempunyai kandungan historis yang sangat kental.”'}/>
                             </SplideSlide>
                             <SplideSlide>
-                                <CardReview />
-                            </SplideSlide>
-                            <SplideSlide>
-                                <CardReview />
+                                <CardReview nama={'Joshep Stall'} tanggal={'25 maret 2024 at 08.15 pm'} review={'“Penggunaan canvas dan cat yang digunakan terlihat berkualitas sehingga sangat mempengaruhi hasil dari lukisan ini.”'}/>
                             </SplideSlide>
                         </Splide>
                     </Col>

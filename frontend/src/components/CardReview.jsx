@@ -10,7 +10,7 @@ import { MdOutlineRestartAlt } from "react-icons/md";
 import '../assets/Global.css'
 import '../assets/LandingSection.css'
 
-export default function CardReview() {
+export default function CardReview(proms) {
     return (
         <>
             <Card>
@@ -23,13 +23,13 @@ export default function CardReview() {
                         </Col>
                         <Col>
                             <Row className=''>
-                                <Col xs={5} className=" fw-medium">Viezh Robert </Col>
+                                <Col xs={5} className=" fw-medium">{proms.nama}</Col>
                             </Row>
-                            <div className='fs-9 text-grey'>5 maret 2024 at 12.08 pm</div>
+                            <div className='fs-9 text-grey'>{proms.tanggal}</div>
                         </Col>
                     </Row>
                     <div className='text-justify fs-8 mt-3'>
-                        “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.
+                        {proms.review}
                     </div>
                 </Card.Body>
             </Card>

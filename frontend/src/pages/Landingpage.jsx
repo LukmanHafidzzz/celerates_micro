@@ -48,7 +48,7 @@ export default function Landingpage() {
                 <section className='position-relative d-inline-block'>
                     <LandingSection1 splideRef={splideRef} />
                     <div className='position-absolute top-50 start-50 text-center translate-middle text-white fs-1 fw-medium'>
-                        <p className='text-main' data-aos='fade-up' data-aos-duration='1000'>DIVE INTO CREATIVITY WITH OUR GALLERY COLLECTION</p>
+                        <p className='text-main' data-aos='fade-up' data-aos-duration='1000'>JELAJAHI KREATIVITAS DENGAN KOLEKSI GALERI KAMI</p>
                     </div>
                     <Container className="position-absolute bottom-0 start-50 text-center translate-middle w-100" data-aos='fade-up' data-aos-duration='2000'>
                         <Row className='d-flex justify-content-center align-items-end'>
@@ -56,7 +56,7 @@ export default function Landingpage() {
                                 Pada platform kami ini akan menampilkan banyak sekali edukasi seni untuk anda dapat pelajari lebih detail. Dan tentunya menjadi platform yang selalu update, bagi kebutuhan anda.
                             </Col>
                             <Col className='justify-content-center align-items-end'>
-                                <Button className='fs-5 visit-btn' variant="outline-light">Visit Gallery</Button>{' '}
+                                <Button className='fs-5 visit-btn' variant="outline-light">Kunjungi Galeri</Button>{' '}
                             </Col>
                             <Col className='mb-5 d-flex justify-content-end gap-3'>
                                 <div className='pagination-btn' onClick={handlePrevClick}>
@@ -71,7 +71,7 @@ export default function Landingpage() {
                 </section>
 
                 <Container className='m-container'>
-                    <p className='fs-1' data-aos="fade-up">Research</p>
+                    <p className='fs-1' data-aos="fade-up">Penelitian</p>
                     <section data-aos="fade-up" data-aos-duration='1000'>
                         <LandingSection2Lagi />
                     </section>
@@ -81,7 +81,7 @@ export default function Landingpage() {
                     <Container className='m-container text-center' data-aos="fade-up" data-aos-duration='1000'>
                         <Row className='d-flex justify-content-center align-items-center'>
                             <Col className='text-start'>
-                                <p className='fs-1'>Collection</p>
+                                <p className='fs-1'>Koleksi</p>
                             </Col>
                             <Col className='text-end'>
                                 Koleksi adalah kumpulan objek atau data dengan tema atau tujuan tertentu, seperti buku-buku di perpustakaan, karya seni, data statistik, barang pribadi, desain pakaian, musik, atau dokumen sejarah.
@@ -90,7 +90,7 @@ export default function Landingpage() {
                         <section className="mt-5">
                             <LandingSection3/>
                         </section>
-                    <Button className='fs-6 fw-medium show-btn mt-5' variant="outline-light">Show More</Button>{' '}
+                    <Button className='fs-6 fw-medium show-btn mt-5' variant="outline-light">Lebih banyak</Button>{' '}
                     </Container>
                 </section>
 
@@ -116,7 +116,7 @@ export default function Landingpage() {
                         <Row>
                             <Col></Col>
                             <Col xs={8}>
-                                <p className='fs-1' data-aos="fade-up" data-aos-duration='1000'>Review</p>
+                                <p className='fs-1' data-aos="fade-up" data-aos-duration='1000'>Ulasan</p>
                                 <p className="text-grey" data-aos="fade-up" data-aos-duration='1000'>
                                     Penelitian adalah proses penyelidikan secara sistematis terhadap suatu subjek atau masalah untuk menemukan fakta, teori, atau prinsip baru, atau untuk menganalisis dan menginterpretasikan informasi yang sudah ada dengan cara yang baru. 
                                 </p>

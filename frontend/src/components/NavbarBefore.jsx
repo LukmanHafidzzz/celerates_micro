@@ -20,12 +20,12 @@ export default function NavbarBefore() {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto"></Nav>
                         <Nav>
-                            <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Home</Link>
-                            <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Learn</Link>
-                            <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Collections</Link>
-                            <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Review</Link>
+                            <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Beranda</Link>
+                            {/* <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Learn</Link> */}
+                            <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Koleksi</Link>
+                            <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Ulasan</Link>
                             <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Agenda</Link>
-                            <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>News</Link>
+                            <Link to={'/'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Berita</Link>
                             <Nav.Link href="#deets" className='me-3'>|</Nav.Link>
                             <Link to={'/register'} className='text-link text-decoration-none me-3 d-flex align-items-center justify-content-center'>Sign Up</Link>
                             <Link to={'/home'} className='text-decoration-none log-btn d-flex align-items-center justify-content-center'>Login</Link>

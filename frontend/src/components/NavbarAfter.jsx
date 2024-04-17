@@ -21,12 +21,12 @@ export default function NavbarAfter() {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto"></Nav>
                         <Nav>
-                            <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Home</Link>
-                            <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Learn</Link>
-                            <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Collections</Link>
-                            <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Review</Link>
+                            <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Beranda</Link>
+                            {/* <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Learn</Link> */}
+                            <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Koleksi</Link>
+                            <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Ulasan</Link>
                             <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Agenda</Link>
-                            <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>News</Link>
+                            <Link to={'/home'} className='text-link text-decoration-none me-3 d-flex align-items-center'>Berita</Link>
                             <Nav.Link href="#deets" className='me-3'>|</Nav.Link>
                             <Link to={'/'} className='text-decoration-none log-btn d-flex align-items-center justify-content-center'>Keluar</Link>
                             <Link to={'/'} className='text-decoration-none user-btn d-flex align-items-center justify-content-center'><CgProfile /></Link>
