@@ -51,7 +51,7 @@ export default function LandingSection5() {
                     </Col>
                 </Row>
                 <Form className='mt-5 d-flex justify-content-end' inline>
-                    <Form.Control type="text" placeholder="Search" className='form-comment' />
+                    <Form.Control type="text" placeholder="Comment" className='form-comment' />
                     <Button type="submit" className='btn-send position-absolute'><BsSend /></Button>
                 </Form>
             </Container>

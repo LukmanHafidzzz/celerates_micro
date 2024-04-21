@@ -1,0 +1,47 @@
+.form-auth {
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: white !important;
+    border: 0px !important;
+    border-bottom: solid white 1px !important;
+    border-radius: 0 !important;
+    padding: 0em 1.5em 0.5em 1.5em !important;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0) !important;
+}
+
+.form-auth:focus {
+    outline: none !important;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0) !important;
+}
+
+.form-auth::placeholder {
+    color: rgba(255, 255, 255, 0.5) !important;
+    font-size: 0.9rem;
+}
+
+.auth-btn {
+    padding: 0.8rem !important;
+    border-radius: 5px !important;
+    background-color: white !important;
+    color: #191919 !important;
+    transition: 0.2s;
+}
+
+.auth-btn:hover {
+    border-radius: 5px !important;
+    background-color: #e1e1e1 !important;
+    transition: 0.2s;
+}
+
+.auth-btn-2 {
+    border-radius: 5px !important;
+    border: solid white 1px !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    transition: 0.3s !important;
+}
+
+.auth-btn-2:hover {
+    border-radius: 5px !important;
+    border: solid white 1px !important;
+    background-color: white !important;
+    transition: 0.3s !important;
+}
