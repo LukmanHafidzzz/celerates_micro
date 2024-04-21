@@ -18,9 +18,7 @@ export default function Login() {
             <Container className='position-absolute top-50 start-50 translate-middle'>
                 <Row className='d-flex justify-content-center' data-aos="zoom-in" data-aos-duration='750'>
                     <Col xl={4} className='bg-fr-container d-flex justify-content-center rounded-start-2'>
-                        <Link to={'/'}>
-                            <Image src='/images/signup.png' className='w-100' />
-                        </Link>
+                        <Image src='/images/signup.png' className='w-100' />
                     </Col>
                     <Col xl={5} className='p-5 bg-sc-container rounded-end-2'>
                         <div className='fw-bold fs-2'>Hey, Selamat Datang Kembali</div>
